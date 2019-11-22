@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Project1</title>
+	<meta charset="utf-8">
+	<script>
+		
+	</script>
+	<style type="text/css">
+		.bg{
+			background-color: red;
+			padding: 3px;
+			margin-bottom: -50px;
+		}
+		center{
+			background-color:white;
+			margin-top: -45px;
+			margin-right: 40px;
+			margin-left: 40px;
+			margin-bottom: -50px;
+		}
+		marquee{
+			font-weight: bold;
+		}
+		a{
+			text-decoration: none;
+		}
+		label{
+			font-weight: bold;
+		}
+		p{
+			font-style: italic;
+			font-weight: bolder;
+		}
+		b{
+			margin-left: 15%;
+		}
+		.r{
+			margin-left: 3.6%;
+		}
+		.r2{
+			margin-left: 30.5%;
+		}
+		.r3{
+			margin-left: 31.5%;
+		}
+		.c{
+			margin-left: 25.3%;
+		}
+		.submit{
+			color: white;
+			background-color:#0040ff;
+			padding: 12px 45px;
+			border-radius: 5px;
+			cursor: pointer;
+			border: none;
+			outline: none;
+			margin: none;
+			font-weight: bolder;
+		}
+		.submit:hover{
+			background-color: #ff00ff;
+			transform: scale(1.3);
+			transition: transform 0.5s;
+			transform-origin: left;
+		}
+		textarea{
+			color:	#ff0000;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	
+		<div class="bg">
+			<h1 align="center">Feedback Form</h1>
+			
+				
+			<br>
+		<br>
+
+	<center>
+		<marquee scrollamount="3" style="background-color: lime;">Thanks for visiting our Feedback Form....Please try to give us the Best Feedback</marquee>
+<br>
+		<p>Let us know how we can improve <a href="#">@CodeSquad</a></p>
+		<form>
+		<label>
+			Name:
+			<input name="Name" placeholder="Enter your name" required="true" type="text">
+		</label>
+		<br>
+		<br>
+		<label>
+			Email:
+			<input name="Email" value="@gmail.com" placeholder="Enter your E-mail" required="true" type="email">
+		</label>
+		<br>
+		<br>
+		<label>
+			Age:
+			<input name="Age" placeholder="Age" required="true" type="Number">
+		</label>
+		<br>
+		<br>
+		<label>
+			Which option best describes your current role?
+			<select>
+				<option selected="selected">Student</option>
+				<option>Programmer</option>
+				<option>Worker</option>
+			</select>
+		</label>
+		<br>
+		<br>
+		<label>
+			How likely is that you would recommend<br><b align="right">CodeSquad to a friend?</b>
+			</label>
+			<input class="r" name="desire" value="Definitely" type="radio">Definitely
+			<br>
+			<input class="r2" name="desire" value="Maybe" type="radio">Maybe
+			<br>
+			<input class="r3" name="desire" value="" type="radio">Not sure
+		
+		<br>
+		<br>
+		<label>
+			What do you like most in CodeSquad?
+			<select required="true">
+				<option selected="selected">Projects about Internet</option>
+				<option>Projects about Programming</option>
+				<option>Projects about Security</option>
+				<option>Projects about Data-Science</option>
+				<option>All the Projects</option>
+			</select>
+		</label>
+		<br>
+		<br>
+		<label>
+			Things that should be improved in the future?
+			<input name="like" value="1" type="checkbox">Front-end Projects
+			<br>
+			<input class="c" name="like" value="2" type="checkbox">Back-end Projects
+			<br>
+			<input class="c" name="like" value="3" type="checkbox">Data Visualization
+		</label>
+		<br>
+		<br>
+		<label>
+			A Short description you want to Suggest:
+		</label>
+		<textarea name="Message" placeholder="The Message you want to Suggest" maxlength="70" required="true"></textarea>
+		<br>
+		<br>
+		<a mailto:hmdarafat0@gmail.com="">
+		<input class="submit" name="" value="SEND" type="Submit"></a>
+	</form>
+		<br>
+		<h3 align="right">©All right reserved 2019</h3>
+	</center>
+</div>
+
+</body></html>
