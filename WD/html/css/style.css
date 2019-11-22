@@ -1,0 +1,94 @@
+body{
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    position: relative;
+    margin: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    background-color: green;
+    border-radius: 5%;
+    animation: text 1s infinite;
+}
+a{
+    text-decoration: none;
+}
+h1:hover{
+    transition-duration: 1s;
+    font-size: 50px;
+    
+}
+@keyframes text{
+    0%{
+        color: #9400D3;
+    }
+    15%{
+        color:#4B0082;
+    }
+    30%{
+        color: #0000FF;
+    }
+    45%{
+        color:#00FF00;
+    }
+    60%{
+        color: #FFFF00;
+    }
+    75%{
+        color: #FF7F00;
+    }
+    90%{
+        color: #FF0000;
+    }
+}
+.banner{
+    background-color:rgb(19, 196, 228);
+}
+.banner img{
+    align-content: center;
+    margin-left: 25%;
+    border: solid red 2px;
+}
+.banner img:hover{
+    margin-left: -1%;
+    margin-right: 5%;
+    width: 1200px;
+    height: 380px;
+    transition: 3s;
+}
+.topnav {
+    margin: 5px;
+    overflow: hidden;
+    background-color: green;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(18, 143, 143);
+    color: rgb(0, 0, 0);
+    transition: 0.01s;
+    animation: text 1s infinite;
+  }
+  .demo{
+      background-color: green;
+      padding: 5px 5px 5px 5px solid red;
+  }
+.demo,img{
+    margin-left: 5px;
+    height: auto;
+    width: auto;
+}
+  .footer2{
+      text-align: right;
+      position: relative;
+  }
